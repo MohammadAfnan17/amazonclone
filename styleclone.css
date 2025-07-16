@@ -1,0 +1,423 @@
+*
+{
+    margin:0;
+    padding:0px;
+    border:border-box;
+    font-family: Arial;
+}
+
+.navbar
+{
+    height:60px;
+    background-color: #0F1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+   
+}
+/* div for logo*/
+.nav-logo
+{
+    height: 50px;
+    width: 100px;
+
+}
+.logo
+{
+    background-image: url("../amazon_logo.png");
+     background-size: cover;
+     height: 50px;
+    width: 100px;
+   
+}
+/*to hover*/
+.border
+{
+    border:1.5px solid transparent;
+}
+.border:hover
+{
+    border:1.5px solid white;
+}
+/* div for address*/
+.add-first
+{
+    color: #CCCCCC;
+    font-size:0.85rem;
+    margin-left: 15px ;
+}
+.add-icon
+{
+    display: flex;
+    align-items: center;
+}
+.add-sec
+{
+    font-size: 1rem;
+    margin-left:3px;
+}
+/* div for search  bar*/
+.nav-search
+{
+   display:flex;
+   width: 620px;
+   height: 40px;
+   border-radius: 4px;
+   background-color: #febd68;
+
+}
+.nav-search:hover
+{
+    border:2px solid #febd68;
+}
+.select
+{
+    background-color: #F3F3F3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.input
+{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+.search-icon
+{
+
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color:black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border:none;
+}
+/* sign in*/
+.hs
+{
+    color:#F3F3F3;
+    font-size:0.7rem;
+}
+.al
+{
+     font-weight: 700;
+}
+/* returns and orders*/
+.r
+{
+    color:#F3F3F3;
+    font-size: 0.7rem;
+}
+.o
+{
+    font-weight: 700;
+}
+/*cart*/
+.cart i
+{
+    font-size:30px;
+}
+.cart
+{
+    font-size:16px;
+    font-weight: 700;
+}
+
+/*for panel*/
+.panel
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+   background-color: #222f3d;
+    color:#FFFFFF;
+   
+   height:40px;
+
+}
+.panelops p 
+{
+    display: inline;
+     margin-left: 15px;
+}
+.panelops p:hover
+{
+    border:1.5px solid white;
+}
+.panelops
+{
+    width: 70%;
+    font-size: 0.85rem;
+   
+}
+.paneldeals
+{
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+/* hero section*/
+.hero
+{
+    background-image: url("../hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    
+
+}
+.heromsg
+{
+    background-color: white;
+    font-size:0.85rem;
+    color:#0F1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 95%;
+    margin-bottom: 25px;
+
+}
+.heromsg a
+{
+    color:#2162A1;
+}
+.heromsg a:hover{
+    text-decoration: underline;
+}
+/*content*/
+.content
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box
+{
+ border:2px solid white;
+ height:400px;
+ width:23%;
+ background-color: white;
+ padding:20px 0px 15px;
+ margin:10px;
+}
+.box-content
+{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+.box-img
+{
+    background-size: cover;
+    height:300px;
+}
+.box-content a
+{
+    color:#007185;
+    font-size: 0.8rem;
+}
+.box-content a:hover
+{
+    color:black;
+    text-decoration: underline;
+}
+footer
+{
+    margin-top:1rem;
+}
+.panel1
+{
+    background-color: #37475a;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem;
+    height: 50px;
+}
+.panel2
+{
+    background-color: #222f3d;
+    color:white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.panel2 p
+{
+    font-size: 1.2rem;
+}
+ul
+{
+    margin-top:10px;
+}
+ul a
+{
+    display: block;
+    font-size: 0.85rem;
+     margin-top: 10px;
+     color:#DDDDDD
+}
+ul a:hover
+{
+    
+    text-decoration: underline;
+}
+.panel3
+{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panelogo
+{
+    background-image: url("../amazon_logo.png");
+     background-size: cover;
+     height: 50px;
+    width: 100px; 
+}
+.panel4
+{
+   
+     background-color: #0F1111;
+     height: 80px;
+
+}
+.conditions
+{
+  
+    color:white;
+    height: 20px;
+    font-size: 0.85rem;
+    text-align: center;
+    padding-top: 10px;
+      
+}
+.conditions a
+{
+    padding-right:10px;
+}
+.conditions a:hover
+{
+    text-decoration: underline;
+}
+.copyright
+{
+    color:white;
+    font-size: 0.85rem;
+        text-align: center;
+        padding-top: 7px;
+
+}
+/* === Media Queries for Responsiveness === */
+
+/* Mobile Devices (<= 600px) */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .nav-logo,
+    .logo {
+        width: 80px;
+        height: 40px;
+    }
+
+    .nav-search {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .panelops {
+        display: none;
+    }
+
+    .hero {
+        height: 200px;
+        background-position: center;
+    }
+
+    .heromsg {
+        font-size: 0.75rem;
+        width: 90%;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .panel2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .panel3 {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .panelogo {
+        height: 40px;
+        width: 80px;
+    }
+}
+
+/* Tablets (601px - 900px) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .nav-search {
+        width: 80%;
+    }
+
+    .panelops {
+        font-size: 0.75rem;
+        width: 90%;
+    }
+
+    .box {
+        width: 45%;
+    }
+
+    .panel2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* Small Laptops (901px - 1200px) */
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .nav-search {
+        width: 70%;
+    }
+
+    .box {
+        width: 30%;
+    }
+}
